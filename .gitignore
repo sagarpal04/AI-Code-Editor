@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+*/*/*/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+*.env.local
+
+# Sensitive credentials & keys
+serviceAccountKey.json
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs & caches
+dist/
+dist-ssr/
+build/
+.cache/
+.parcel-cache/
+
+# Temporary & workspace directories
+temp/
+tmp/
+.temp/
+
+# IDE and OS specific files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
